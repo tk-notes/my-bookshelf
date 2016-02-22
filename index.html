@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MyBookshelf</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+  </head>
+
+  <body ng-app='myBookshelf'>
+    <h1>My Bookshelf</h1>
+    <p>Bla bla bla!</p>
+
+    <dir ng-controller='BooksController'>
+      <h1>{{ hi }}</h1>
+      <ul>
+        <li>
+          <b><a href="http://www.amazon.com/Radical-Evolution-Promise-Enhancing-Bodies/dp/0767915038/">Radical Evolution</a></b> by Joel Garreau
+        </li>
+      </ul>
+    </dir>
+  </body>
+
+  <script src="js/books_controller.js"></script>
+</html>

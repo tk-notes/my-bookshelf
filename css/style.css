@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,300italic,600italic);
 
-body, 
-html {
+body, html {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -9,12 +8,7 @@ html {
   margin-bottom: 50px;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.4;
@@ -47,11 +41,7 @@ h6 {
   font-size: 1rem;
 }
 
-a, 
-a:active, 
-a:hover, 
-a:link, 
-a:visited {
+a, a:active, a:hover, a:link, a:visited {
   color: black;
 }
 
@@ -63,6 +53,7 @@ li {
 
 span.book-read {
   margin-right: 5px;
+  color: #0BE370;
 }
 
 span.medium-post {

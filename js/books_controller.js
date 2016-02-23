@@ -9,7 +9,7 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'url': 'http://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose/dp/160941280X',
 			'hasMediumPost': false,
 			'mediumPostUrl': '',
-			'read': false
+			'read': true
 		},
 
 		{

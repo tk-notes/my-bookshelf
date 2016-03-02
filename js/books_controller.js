@@ -19,6 +19,15 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'hasMediumPost': false,
 			'mediumPostUrl': '',
 			'read': false
+		},
+
+		{
+			'title': 'Zero To One',
+			'author': 'Peter Thiel',
+			'url': 'http://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
 		}
 	];
 

@@ -14,7 +14,7 @@
     <p>by Leandro Tk</p>
 
     <h4>2016</h4>
-    <dir ng-controller='BooksController'>
+    <div ng-controller='BooksController'>
       <ul>
         <li ng-repeat="book in books">
           <span class='book-read' ng-if='book.read'><i class="fa fa-check"></i></span>
@@ -24,7 +24,7 @@
           </span>
         </li>
       </ul>
-    </dir>
+    </div>
   </body>
 
   <script src="js/books_controller.js"></script>

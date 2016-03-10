@@ -1,9 +1,9 @@
 var app = angular.module('myBookshelf', []);
 
-app.controller('BooksController', ['$scope', function($scope) {	
+app.controller('BooksController', ['$scope', function($scope) {
 
 	$scope.books = [
-		{ 
+		{
 			'title': 'Delivering Happiness',
 			'author': 'Tony Hsieh',
 			'url': 'http://www.amazon.com/Delivering-Happiness-Profits-Passion-Purpose/dp/160941280X',
@@ -25,6 +25,15 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'title': 'Zero To One',
 			'author': 'Peter Thiel',
 			'url': 'http://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
+		},
+
+		{
+			'title': 'How to Win Friends and Influence People in the Digital Age',
+			'author': 'Dale Carnegie & Associates',
+			'url': 'http://www.amazon.com/How-Friends-Influence-People-Digital/dp/1451612591',
 			'hasMediumPost': false,
 			'mediumPostUrl': '',
 			'read': false

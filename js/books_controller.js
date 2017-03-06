@@ -31,9 +31,27 @@ app.controller('BooksController', ['$scope', function($scope) {
 		},
 
 		{
-			'title': 'How to Win Friends and Influence People in the Digital Age',
-			'author': 'Dale Carnegie & Associates',
-			'url': 'http://www.amazon.com/How-Friends-Influence-People-Digital/dp/1451612591',
+			'title': 'Platform Scale',
+			'author': 'Sangeet Paul Choudary',
+			'url': 'https://www.amazon.com/Platform-Scale-emerging-business-investment-ebook/dp/B015FAOKJ6',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
+		},
+
+		{
+			'title': 'Hooked',
+			'author': 'Nir Eyal',
+			'url': 'https://www.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
+		},
+
+		{
+			'title': 'The 4-Hour Workweek',
+			'author': 'Tim Ferris',
+			'url': 'https://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307465357',
 			'hasMediumPost': false,
 			'mediumPostUrl': '',
 			'read': false

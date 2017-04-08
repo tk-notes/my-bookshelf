@@ -55,6 +55,15 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'hasMediumPost': false,
 			'mediumPostUrl': '',
 			'read': false
+		},
+
+		{
+			'title': 'The Effective Engineer',
+			'author': 'Edmond Lau',
+			'url': 'https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
 		}
 	];
 

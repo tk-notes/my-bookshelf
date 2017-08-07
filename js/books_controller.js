@@ -64,6 +64,15 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'hasMediumPost': false,
 			'mediumPostUrl': '',
 			'read': false
+		},
+
+    {
+			'title': 'Programming Challenges',
+      'author': 'Steve S. Skiena & Miguel A. Revilla',
+			'url': 'https://www.amazon.com/Programming-Challenges-Contest-Training-Computer/dp/0387001638',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
 		}
 	];
 

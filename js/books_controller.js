@@ -73,6 +73,15 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'hasMediumPost': false,
 			'mediumPostUrl': '',
 			'read': false
+		},
+
+    {
+			'title': 'Cracking the Coding Interview',
+      'author': 'Gayle Laakmann McDowell',
+			'url': 'https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
 		}
 	];
 

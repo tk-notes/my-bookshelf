@@ -1,2 +1,2 @@
-# My Bookshelf [here!] (http://leandrotk.github.io/mybookshelf/)
+# My Bookshelf [here!](http://leandrotk.github.io/mybookshelf/)
 Always in construction..

@@ -82,6 +82,15 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'hasMediumPost': false,
 			'mediumPostUrl': '',
 			'read': false
+		},
+
+    {
+			'title': 'Machine Learning with Python',
+      'author': 'Sebastian Raschka',
+			'url': 'https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
 		}
 	];
 

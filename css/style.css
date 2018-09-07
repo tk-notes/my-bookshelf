@@ -21,6 +21,15 @@ h2 {
   font-size: 3rem;
 }
 
+p.by-tk {
+  margin-bottom: 10px;
+}
+
+hr.divider-for-tk {
+  margin: 0px auto 30px;
+  max-width: 40px;
+}
+
 a, a:active, a:hover, a:link, a:visited {
   color: black;
 }
@@ -43,4 +52,9 @@ span.medium-post {
 
 .fa-medium {
   color: #0BE370;
+}
+
+hr.divider {
+  margin: 40px auto;
+  max-width: 50px;
 }

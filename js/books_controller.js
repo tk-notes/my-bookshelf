@@ -1,8 +1,26 @@
 var app = angular.module('myBookshelf', []);
 
 app.controller('BooksController', ['$scope', function($scope) {
+	var twoThousandEighteenbooks = [
+		{
+			'title': 'Machine Learning with Python',
+			'author': 'Sebastian Raschka',
+			'url': 'https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
+		},
+		{
+			'title': 'The Effective Engineer',
+			'author': 'Edmond Lau',
+			'url': 'https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107',
+			'hasMediumPost': false,
+			'mediumPostUrl': '',
+			'read': false
+		}
+	]
 
-	$scope.books = [
+	var twoThousandSeventeenbooks = [
 		{
 			'title': 'Delivering Happiness',
 			'author': 'Tony Hsieh',
@@ -11,7 +29,6 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'mediumPostUrl': '',
 			'read': true
 		},
-
 		{
 			'title': 'Elon Musk',
 			'author': 'Ashlee Vance',
@@ -20,7 +37,6 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'mediumPostUrl': '',
 			'read': false
 		},
-
 		{
 			'title': 'Zero To One',
 			'author': 'Peter Thiel',
@@ -29,7 +45,6 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'mediumPostUrl': '',
 			'read': false
 		},
-
 		{
 			'title': 'Platform Scale',
 			'author': 'Sangeet Paul Choudary',
@@ -38,7 +53,6 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'mediumPostUrl': '',
 			'read': false
 		},
-
 		{
 			'title': 'Hooked',
 			'author': 'Nir Eyal',
@@ -47,7 +61,6 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'mediumPostUrl': '',
 			'read': false
 		},
-
 		{
 			'title': 'The 4-Hour Workweek',
 			'author': 'Tim Ferris',
@@ -56,16 +69,6 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'mediumPostUrl': '',
 			'read': false
 		},
-
-		{
-			'title': 'The Effective Engineer',
-			'author': 'Edmond Lau',
-			'url': 'https://www.amazon.com/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107',
-			'hasMediumPost': false,
-			'mediumPostUrl': '',
-			'read': false
-		},
-
     {
 			'title': 'Programming Challenges',
       'author': 'Steve S. Skiena & Miguel A. Revilla',
@@ -74,7 +77,6 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'mediumPostUrl': '',
 			'read': false
 		},
-
     {
 			'title': 'Cracking the Coding Interview',
       'author': 'Gayle Laakmann McDowell',
@@ -82,16 +84,11 @@ app.controller('BooksController', ['$scope', function($scope) {
 			'hasMediumPost': false,
 			'mediumPostUrl': '',
 			'read': false
-		},
-
-    {
-			'title': 'Machine Learning with Python',
-      'author': 'Sebastian Raschka',
-			'url': 'https://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130',
-			'hasMediumPost': false,
-			'mediumPostUrl': '',
-			'read': false
 		}
 	];
 
+	$scope.booksPerYear = {
+		'2018': twoThousandEighteenbooks,
+		'2017': twoThousandSeventeenbooks
+	};
 }]);

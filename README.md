@@ -11,3 +11,5 @@ Books I want to read
 - [The Future of the Mind: The Scientific Quest to Understand, Enhance, and Empower the Mind](https://www.amazon.com/gp/product/0307473341)
 - [Gödel, Escher, Bach: An Eternal Golden Braid](https://www.amazon.com/gp/product/0465026567/)
 - [The Einstein Factor: A Proven New Method for Increasing Your Intelligence](https://www.amazon.com/gp/product/076150186X/)
+- [Peak: Secrets from the New Science of Expertise](https://www.amazon.com/gp/product/0544947223)
+- [Mindset](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322)

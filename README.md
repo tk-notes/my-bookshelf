@@ -13,3 +13,4 @@ Books I want to read
 - [The Einstein Factor: A Proven New Method for Increasing Your Intelligence](https://www.amazon.com/gp/product/076150186X/)
 - [Peak: Secrets from the New Science of Expertise](https://www.amazon.com/gp/product/0544947223)
 - [Mindset](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322)
+- [The Case against Education: Why the Education System Is a Waste of Time and Money](https://www.amazon.com/Case-against-Education-System-Waste-ebook/dp/B076ZY8S8J)

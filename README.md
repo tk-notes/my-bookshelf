@@ -14,3 +14,4 @@ Books I want to read
 - [Peak: Secrets from the New Science of Expertise](https://www.amazon.com/gp/product/0544947223)
 - [Mindset](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322)
 - [The Case against Education: Why the Education System Is a Waste of Time and Money](https://www.amazon.com/Case-against-Education-System-Waste-ebook/dp/B076ZY8S8J)
+- [Enlightenment Now: The Case for Reason, Science, Humanism, and Progress](https://www.amazon.com/Enlightenment-Now-Science-Humanism-Progress/dp/0525427570)

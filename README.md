@@ -1,4 +1,4 @@
-# My Bookshelf [here!](http://leandrotk.github.io/mybookshelf/)
+# My Bookshelf [here!](https://tk-notes.github.io/my-bookshelf)
 Always in construction..
 
 Books I want to read
